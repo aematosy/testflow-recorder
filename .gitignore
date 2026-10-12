@@ -1,0 +1,54 @@
+# ============================================================
+# TestFlow Recorder - Distribution repository
+# Source code must NEVER be committed to this repository.
+# ============================================================
+
+# Extension source
+extension/
+
+# Internal tests
+tests/
+
+# Internal technical documentation
+docs/
+
+# Internal development/version notes
+SUPER_VERSION_*.md
+
+# Secrets / signing material
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# Source maps
+*.map
+
+# Dependencies / build
+node_modules/
+src/
+source/
+build/
+dist/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.swp
+
+# Local recordings / execution artifacts
+recording*.json
+testflow-flow-*.json
+screenshots/
+reports/
+
+# Private signing material
+.private/
