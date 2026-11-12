@@ -1,75 +1,46 @@
 # Changelog
 
-All notable changes to TestFlow Recorder are documented in this file.
+## 3.1.5
 
-## [3.0.9] - 2026-10-12
+### Recorder and SPY
 
-### Recorder
+- Improved exact-element inspection.
+- Improved external link locator generation.
+- Added stronger image `alt` / `src` locator strategies.
+- Added parent inspection.
+- Added minimize/restore behavior for the locator panel.
+- Improved semantic element handling.
+- Preserved hover only when downstream intent is detected.
 
-- Stable web interaction recording
-- Functional step grouping by consecutive page transitions
-- Session naming and flow persistence
-- Flow JSON import and export
-- Sensitive runtime data protection
+### Assertions
 
-### Locator Engine
-
-- Exact unique-target validation
-- Semantic locator prioritization
-- Multiple independent locator families
-- CSS and XPath alternatives
-- Structural parent, child, ancestor, descendant, and sibling strategies
-- Dynamic and positional selector protection
-- Manual locator fallback
-- Automation-oriented semantic target fingerprints
-
-### Object Spy
-
-- Element inspection
-- Multiple locator suggestions
-- Copy locator
-- Add assertion
-- Add action
-- Pause and resume inspection
-- Persistent Spy state across navigation
-- Isolated Spy controls that do not interact with the inspected application
+- Improved element-aware assertion choices.
+- Assertions are inserted before the action they validate.
+- Improved visible, clickable, enabled, disabled, present, not-present, selected, and text-based validation handling.
 
 ### Runner
 
-- Dedicated flow execution workspace
-- Runtime input editing
-- Execution locator selection
-- Manual locator override
-- Assertion insertion
-- Skip actions
-- Delete selected actions
-- Global and per-action maximum waits
-- Isolated execution
-- Passed, failed, skipped, and not-executed states
+- Multi-select reordering.
+- Automatic renumbering.
+- Improved locator and assertion alignment.
+- Improved compact layout.
+- Unified report download naming.
 
-### Reports
+### Evidence
 
-- Standalone HTML execution report
-- Execution metrics and progress
-- Action-level results
-- Failure diagnostics
-- Locator and assertion evidence
+- TestFlow overlays are hidden before screenshots are taken.
 
-### Browser Context
+### Framework support
 
-- iframe-aware capture and replay metadata
-- Open Shadow DOM traversal
-- Nested Shadow DOM paths
-- Closed Shadow DOM capture bridge
-- Consolidated typing for Closed Shadow DOM inputs
+- Serenity Screenplay / Java
+- Playwright / TypeScript
+- Playwright / Python
+- pytest integration
 
-### Automation Integration
+### Branding
 
-- Playwright TypeScript metadata
-- Serenity Screenplay Java metadata
-- Semantic fingerprints for downstream generation and healing
+- Updated public branding to **Developed by aematosy**.
 
-### Languages
+---
 
-- English
-- Spanish
+Older public builds may have used different release packaging and branding.
