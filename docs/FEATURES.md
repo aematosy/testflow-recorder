@@ -91,7 +91,3 @@ Supported target families:
 - Playwright / TypeScript
 - Playwright / Python
 - pytest integration
-
----
-
-**Developed by aematosy**
