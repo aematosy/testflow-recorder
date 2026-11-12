@@ -53,7 +53,3 @@ Try inspecting the parent/child semantic element or use a manual locator as a la
 ## Are screenshots clean?
 
 The extension hides its own overlays before evidence capture so TestFlow controls do not appear in the screenshot.
-
----
-
-**Developed by aematosy**
