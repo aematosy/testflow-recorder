@@ -37,7 +37,3 @@ The portable flow can be interpreted by framework-specific automation tooling.
 The public JSON/flow representation is the contract between recording and framework-specific automation.
 
 This public repository intentionally does not contain proprietary extension source code.
-
----
-
-**Developed by aematosy**
