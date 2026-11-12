@@ -25,7 +25,3 @@ Incognito access is explicitly controlled by the user through Chrome.
 This public repository is a documentation repository.
 
 The proprietary TestFlow Recorder implementation is not published here.
-
----
-
-**Developed by aematosy**
