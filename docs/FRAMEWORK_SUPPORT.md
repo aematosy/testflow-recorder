@@ -61,7 +61,3 @@ Before committing generated automation:
 3. move reusable logic into framework abstractions;
 4. parameterize test data;
 5. align waits and assertions with application behavior.
-
----
-
-**Developed by aematosy**
