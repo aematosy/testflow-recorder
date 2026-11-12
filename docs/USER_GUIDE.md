@@ -402,7 +402,3 @@ See also:
 - [Framework Support](FRAMEWORK_SUPPORT.md)
 - [FAQ](FAQ.md)
 - [Support](SUPPORT.md)
-
----
-
-**Developed by aematosy**
